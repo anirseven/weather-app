@@ -1,0 +1,11 @@
+.card {
+  border-radius: 10px;
+  width: 100%;
+  max-width: 12rem;
+  margin: 2rem auto;
+  column-count: 1;
+  font-family: inherit;
+  font-size: inherit;
+  background-color: lightseagreen;
+  color: white;
+}

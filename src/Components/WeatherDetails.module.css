@@ -1,0 +1,25 @@
+.CardComponet {
+}
+
+.tempdetail {
+  font-family: inherit;
+  font-size: 36px;
+}
+
+.timeDetails {
+  display: block;
+  font-family: inherit;
+  font-size: inherit;
+  padding: 10px;
+}
+
+.datetoDisplay {
+  display: block;
+  font-family: inherit;
+  font-size: inherit;
+  padding: 15px;
+}
+
+.celsius {
+  font-size: inherit;
+}
