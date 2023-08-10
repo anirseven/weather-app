@@ -27,7 +27,7 @@ const Weather = (props) => {
     //console.log(city);
     //console.log("Getting Longitude and Lattitude");
     const response = await fetch(
-      // "http://api.openweathermap.org/geo/1.0/direct?q=Munich&limit=5&appid=aa4ffbe76703602900ae17e7f3bf361e"
+      // "http://api.openweathermap.org/geo/1.0/direct?q=Munich&limit=5&appid=<key>"
       "http://api.openweathermap.org/geo/1.0/direct?q=" +
         city +
         "&limit=5&appid=<key>"
