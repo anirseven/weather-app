@@ -30,7 +30,7 @@ const Weather = (props) => {
       // "http://api.openweathermap.org/geo/1.0/direct?q=Munich&limit=5&appid=aa4ffbe76703602900ae17e7f3bf361e"
       "http://api.openweathermap.org/geo/1.0/direct?q=" +
         city +
-        "&limit=5&appid=aa4ffbe76703602900ae17e7f3bf361e"
+        "&limit=5&appid=<key>"
     );
 
     const data = await response.json();
